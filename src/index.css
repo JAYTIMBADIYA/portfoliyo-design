@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+  height: 760vh;    
+  background-color: #02240a;
+  color: white;
+  font-family: 'outfit';
+  border: 2px solid gold;
+  margin: 30px;
+}
+
+@media (max-width:768px) {
+  body{
+    height: 500vh;
+  } 
+}
+
